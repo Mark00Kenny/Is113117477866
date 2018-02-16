@@ -3,12 +3,54 @@
     <head>
         <title>117477866</title>
         <link rel="stylesheet" href="mystylesheet.css" type="text/css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     
         <style>
+        
+        
         
 body {
     
     background: url("wolf_logo.jpg") no-repeat center fixed;
     background-size: cover;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
 
 
@@ -16,59 +58,65 @@ h1 {
     background-color:black;
     color: white;
     text-align: center;
+    border: solid ;
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-li a.active {
-    background-color: #4CAF50;
     color: white;
+    text-align: center;
+    background-color:black ;
+    border: solid;
+    border: round;
+
 }
 
-li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+span {
+    background-color: white;
+    border: solid black;
 }
-
 
 </style>
     </head>
-    <body>  
+
     
         <h1 class="mainheading">117477866 - IS1113 Project!</h1>
         
-        <ul>
-  <li><a class="active" href="cv_page1.html">Curriculum Vitae</a></li>
-  <li><a href="Interests/interests.html">Interests</a></li>
-  <li><a href ="ebusiness/Ebus1.php"> E business</a></li>
   
-  </ul>
   
+      <body>  
+    
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href= "cv_page1.html">Curriculum Vitae</a>
+  <a href="Interests/interests.html">Interests</a>
+  <a href ="ebusiness/Ebus1.php"> E business</a>
+  <a href="is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+  <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
+</div>
+
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Click to Navigate</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
   <hr />
-  <ul>
-  <li><a href="is113117477866.herokuapp.com">is1113117477866.herokuapp.com</a></li>
-  <li><a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub</a></li>
-        </ul>
-       
+ <p> Welcome to my Project. Please use the Navigation bar to access further material.</p>
+ <hr />
+ 
+ 
+ 
+  
+        
     </body>
      
 
