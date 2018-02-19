@@ -13,6 +13,10 @@ session_start();
             // Echo session variables that were set on previous page
             echo "Total is " . $_SESSION["total"] . ".";
             ?>
+            
+            <?php
+            Echo "Name " . $_SESSION["first_name"] . ".";
+            ?>
         </body>
     
 </html>

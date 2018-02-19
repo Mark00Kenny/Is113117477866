@@ -7,8 +7,17 @@ function calcSub(){
     if (document.getElementById('salesforce').checked) {
         argSubTotal=100;
     }
-    else{
+    
+    if (document.getElementById('cloudnine').checked) {
+        argSubTotal=200;
+    }
+    
+    if (document.getElementById('amazon').checked) {
         argSubTotal=300;
+    }
+    
+    if (document.getElementById('gmail').checked) {
+        argSubTotal=400;
     }
     
     display(argSubTotal);
