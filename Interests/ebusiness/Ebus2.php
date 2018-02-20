@@ -1,11 +1,4 @@
-<?php
-// Start the session
-session_start();
-// Set The Variables
-$_SESSION ["first_name"] = "";
-$_SESSION [ "last_name"] = "";
-$_SESSION [ "email"] =     "" ;
-?>
+
 
 <!DOCTYPE html>
 <html>
@@ -71,7 +64,10 @@ $_SESSION [ "email"] =     "" ;
         
         <?php
         // Set session variables
-        $_SESSION["total"] = $_POST["total"];
+        $_SESSION["total"]        = $_POST["total"];
+        $_SESSION ["first_name"]  = $_POST ["first_name"];
+        $_SESSION [ "last_name"]  = $_POST ["last_name"] ;
+        $_SESSION [ "email"]      = $_POST ["email"];
         ?>
         
     </body>
