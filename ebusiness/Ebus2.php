@@ -64,7 +64,7 @@ span {
         
             <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href= "homepage.html">Home</a>
+  <a href= "../homepage.html">Home</a>
   <a href= "cv_page1.html">Curriculum Vitae</a>
   <a href="Interests/interests.html">Interests</a>
   <a href ="ebusiness/Ebus1.php"> E business</a>

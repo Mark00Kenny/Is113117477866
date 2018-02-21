@@ -58,12 +58,12 @@ span {
         
   <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href= "homepage.html">Home</a>
+  <a href= "../homepage.html">Home</a>
   <a href= "cv_page1.html">Curriculum Vitae</a>
   <a href="Interests/interests.html">Interests</a>
   <a href ="ebusiness/Ebus1.php"> E business</a>
   <a href ="Interests/cloud.html"> Cloud Services</a>
-  <a href ="is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+  <a href="https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
   <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
 
@@ -150,7 +150,7 @@ function closeNav() {
                 <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
             </label>
             <br/>
-            <a href="Ebus2.php">
+            <a href="Ebus2.php"
                 <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
             </a>
         </form>
