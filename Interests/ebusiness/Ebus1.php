@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-    
     <head>
-        <title>Select Product</title>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>
-        </script>
+        <Title>Select Product</Title>
+        <!--jQuery-->
+        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>        
         
     </head>
     <style>
-        body
+    
+    body
         
 .sidenav {
     height: 100%;
@@ -57,14 +56,14 @@ span {
     </style>
     <body>
         
-            <div id="mySidenav" class="sidenav">
+  <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "homepage.html">Home</a>
   <a href= "cv_page1.html">Curriculum Vitae</a>
   <a href="Interests/interests.html">Interests</a>
   <a href ="ebusiness/Ebus1.php"> E business</a>
-  <a href ="cloud.html"> Cloud Services</a>
-  <a href="is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+  <a href ="Interests/cloud.html"> Cloud Services</a>
+  <a href ="is113117477866.herokuapp.com">is1113117477866 Heroku</a>
   <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
 
@@ -82,63 +81,85 @@ function closeNav() {
 }
 </script>
 
-        <h4>Select a product</h4>
         
-        </br>
+    <body>
+
+        <h4>Select a Product</h4>
         
-        <form method="POST" action="Ebus2.php">
-           <hr />
+        <form method = "POST" action = "ebus2.php">
+             <hr />
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
             </label>
             
             <hr />
+            <br/>
             
-            <label for="aws">
-                <input type="radio" id="cloudnine" name="product" onClick="disablebtnProceed()"/>
+            <label for="Cloud9">
+                <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()">
                 Cloud 9 @ $200
             </label>
-            <hr />
             
-            <label for="amazon">
-                <input type="radio" id="amazon" name="product" onClick="disablebtnProceed()"/>
+            <hr />
+            <br/>
+                        
+            <label for="aws">
+                <input type = "radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
             </label>
             
             <hr />
             
-            <label for="gmail">
-                <input type="radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
+            <br/>
+            
+            <label for="Gmail">
+                <input type = "radio" id="gmail" name="product" onClick="disablebtnProceed()"/>
                 Gmail @ $400
+                
+                
             </label>
-            
             <hr />
-            <br/>
-            <br/>
             
+            <br/>
+            <br/>
             <label for="subtotal">
-                Subtotal
-                <input type="text" id="subtotal" value="0.00" readonly/>
+                Sub Total: 
+                <br/>
+                    <input type="text" id="subtotal" value="0.00" class="inline" readonly/>
             </label>
             
-            <br/>
+            <br/><br/>
             
-            <label for="total">
-                Subtotal
-                <input type="text" id="total" name="total" value="0.00" readonly/>
+            <label for="discount">
+                Discount:
+                <br/>
+                <input type="text" id="discount" name="total" value="0.00" class="inline" readonly/>
             </label>
+            <br/><br/>
+            <label for="vat">
+                VAT:
+                <br/>
+                <input type="text" id="vat" name="vat" value="0.00" class="inline" readonly/>
+            </label>
+            <br/><br/>
             
+            <label for="Total">
+            Total:
             <br/>
-            
-            <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-        
+                <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
+            </label>
+            <br/>
+            <a href="Ebus2.php">
+                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+            </a>
         </form>
         
         <br/>
-        <button onClick="calcSub()">Calculate Cost</button>
-        <a rule="button" href="Ebus1.php">Clear Choice</a>
         
-        
+        <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
+        <a role="button" href="Ebus1.php">Clear Choice</a>
+        <br/><br/><br/><br/>
+       
     </body>
 </html>

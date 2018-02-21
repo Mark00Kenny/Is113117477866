@@ -68,7 +68,7 @@ span {
   <a href= "cv_page1.html">Curriculum Vitae</a>
   <a href="Interests/interests.html">Interests</a>
   <a href ="ebusiness/Ebus1.php"> E business</a>
-  <a href ="cloud.html"> Cloud Services</a>
+  <a href ="Interests/cloud.html"> Cloud Services</a>
   <a href="is113117477866.herokuapp.com">is1113117477866 Heroku</a>
   <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
@@ -109,7 +109,7 @@ function closeNav() {
                 
                 <br/>
                 
-                <input type="text" name="first_name" placeholder="First name" maxlength="15"> <br>
+                <input type="text" id="first_name" name="first_name" placeholder="First name" maxlength="15"> <br>
                 <input type="text" name="last_name" placeholder="Last name" maxlength="15"> <br>
                  
                  <hr />
