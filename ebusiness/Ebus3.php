@@ -1,6 +1,7 @@
 <?php
 session_start();
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -83,9 +84,8 @@ function closeNav() {
             
             <?php
             // Echo session variables that were set on previous page
-            echo "Total is " . $_POST["total"] . ".";
+            echo "Total: " . $_SESSION["total"] . ".";
             ?>
-            
             <br/>
             <br/>
             

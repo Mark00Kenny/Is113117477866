@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -161,5 +165,9 @@ function closeNav() {
         <a role="button" href="Ebus1.php">Clear Choice</a>
         <br/><br/><br/><br/>
        
+       <?php
+       // Set the session variables
+     $_SESSION['total'] = $_POST['total'];
+     ?>
     </body>
 </html>
