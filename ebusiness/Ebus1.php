@@ -148,7 +148,7 @@ function closeNav() {
             </label>
             <br/><br/>
             
-            <label for="Total">
+            <label for="total">
             Total:
             <br/>
                 <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
