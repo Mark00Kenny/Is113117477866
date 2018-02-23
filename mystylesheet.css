@@ -3,7 +3,7 @@
 }
 
 /* Global */
-
+body
 
 .sidenav {
     height: 100%;
@@ -44,12 +44,13 @@
   .sidenav a {font-size: 18px;}
 }
 
-
-
-
 span {
     background-color: white;
     border: solid black;
 }
+
+
+
+
 
 

@@ -26,8 +26,8 @@ function calcDisVatTotal(parmSubTotal){
   discount = parmSubTotal * num1;
   document.getElementById("discount").value = discount;
   num2 = parmSubTotal - discount;
-  vat = num2 * .1;
-  totalPrice = parmSubTotal+(discount + vat);
+  vat = num2 * .10;
+  totalPrice = parmSubTotal-(discount) +(vat);
   display(parmSubTotal,discount,vat,totalPrice);
 
 }
