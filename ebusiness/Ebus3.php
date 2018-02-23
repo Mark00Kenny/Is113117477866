@@ -83,7 +83,7 @@ function closeNav() {
             
             <?php
             // Echo session variables that were set on previous page
-            echo "Total: " . $_POST["total"] . ".";
+            echo "Total: " . $_SESSION["total"] . ".";
             ?>
             <br/>
             <br/>
