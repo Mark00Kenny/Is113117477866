@@ -4,10 +4,10 @@ function calcSub(){
     
     var argSubTotal;
     
-    if(document.getElementById('salesforce').checked){
+    if(document.getElementById('salesforce').checked) {
       argSubTotal = 100;
     }
-    if(document.getElementById('gmail').checked){
+    if(document.getElementById('gmail').checked) {
       argSubTotal = 400;
     }
     if(document.getElementById('aws').checked){
@@ -18,8 +18,8 @@ function calcSub(){
     }
 
     calcDisVatTotal(argSubTotal);
-    
 }
+
 function calcDisVatTotal(parmSubTotal){
   var num1, num2, discount, vat, totalPrice;
   num1 = .05
@@ -40,11 +40,12 @@ function display(parm1,parm2,parm3,parm4){
   enablebtnProceed();
 }
 
+    
 
 function enablebtnProceed(){
     $('#btnProceed').prop('disabled', false);
 }
 
-function disablebtnProceed(){
+function disablebtnProceed() {
     $('#btnProceed').prop('disabled', true);
 }

@@ -1,14 +1,14 @@
-
-
 <!DOCTYPE html>
 <html>
+    
     <head>
-        <Title>Select Product</Title>
-        <!--jQuery-->
-        <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script type="text/javascript" src="cost_calc.js"></script>        
+        <title>Select Product</title>
         
-    </head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="cost_calc.js"></script>
+        </script>
+    
+</head>
     <style>
     
     body
@@ -81,15 +81,16 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
-</script>
+</script>    
 
-        
+    </head>
     <body>
-
-        <h4>Select a Product</h4>
+        <h4>Select a product</h4>
         
-        <form method = "POST" action = "ebus2.php">
-             <hr />
+        
+        
+        <form method="POST" action="Ebus2.php">
+         <hr />
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
                 Salesforce @ $100
@@ -125,44 +126,43 @@ function closeNav() {
             
             <br/>
             <br/>
-            <label for="subtotal">
-                Sub Total: 
-                <br/>
-                    <input type="text" id="subtotal" value="0.00" class="inline" readonly/>
+            
+             <label for="subtotal">
+                Subtotal &euro;
+                <input type="text" id="subtotal" value="0.00" name="subtotal" readonly/>
             </label>
             
-            <br/><br/>
+            <br/> </br>
             
             <label for="discount">
-                Discount:
-                <br/>
-                <input type="text" id="discount" name="total" value="0.00" class="inline" readonly/>
+                Discount &euro;
+                <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
-            <br/><br/>
-            <label for="vat">
-                VAT:
-                <br/>
-                <input type="text" id="vat" name="vat" value="0.00" class="inline" readonly/>
+            
+            <br/> </br>
+            
+             <label for="vat">
+                VAT &euro;
+                <input type="text" id="vat" value="0.00" readonly/>
             </label>
-            <br/><br/>
+            
+            <br/> </br>
             
             <label for="total">
-            Total:
-            <br/>
-                <input type="text" id="total" name="total" value="0.00" class="inline" readonly/>
+                Total &euro;
+                <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
-            <br/>
-            <a href="Ebus2.php"
-                <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
-            </a>
+            
+            <br/> </br>
+            
+            <button  type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
+        
         </form>
         
         <br/>
+        <button class ="button_1" onClick="calcSub()";"calcDisVatTotal()";>Calculate Cost</button>
+        <a rule="button" class="cancel hover" href="Ebus1.php">Clear Choice</a>
         
-        <button onClick="calcSub()" class="Calculate button1">Calculate Cost</button>
-        <a role="button" href="Ebus1.php">Clear Choice</a>
-        <br/><br/><br/><br/>
-       
-       
+        
     </body>
 </html>

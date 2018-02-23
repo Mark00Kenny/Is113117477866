@@ -15,7 +15,6 @@ function validateDetails(){
     else{
         enablebtnPurchase();
         }
-        
 }
 
 function enablebtnPurchase(){

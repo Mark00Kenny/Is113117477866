@@ -1,15 +1,16 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Receipt</title>
+        <title>RECEIPT</title>
+        <link rel="stylesheet" href="mystylesheet.css">
         </head>
+    <style>
+    
+    body
         
-        <style>
-        body
 .sidenav {
     height: 100%;
     width: 0;
@@ -52,10 +53,10 @@ span {
     background-color: white;
     border: solid black;
 }
-        </style>
-        <body>
-            
-                           <div id="mySidenav" class="sidenav">
+    </style>
+    <body>
+        
+               <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "../homepage.html">Home</a>
   <a href= "../cv_page1.html">Curriculum Vitae</a>
@@ -65,6 +66,7 @@ span {
   <a href="../https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
   <a href="../https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
+
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; .</span>
@@ -78,13 +80,15 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-
-            <h2>Purchase Receipt</h2>
-            
+    </head>
+    <body>
+        <H3 style="text-align:center;">Thank you for your purchase.</H3>
+        <div class="receipt">
             <?php
-            // Echo session variables that were set on previous page
-            echo "Total: " . $_SESSION["total"] . ".";
+            // echo session variables from ebus2
+            echo "Total is &euro; " . $_SESSION["total"] . ".";
             ?>
+            
             <br/>
             <br/>
             
@@ -104,8 +108,16 @@ function closeNav() {
             echo "E-mail Address: " . $_POST["email"] . ".";
             ?>            
             
+            <br/>
+            <br/>
+            
              <a href= "../homepage.html">Home</a>
             
-        </body>
-    
-</html>
+        
+        </div> 
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <footer>
+            <p>117477866 &copy; 2018</p>
+        </footer>
+    </body>
+</html>   
