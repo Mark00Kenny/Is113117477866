@@ -55,17 +55,16 @@ span {
         </style>
         <body>
             
-                <div id="mySidenav" class="sidenav">
+                           <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "../homepage.html">Home</a>
-  <a href= "cv_page1.html">Curriculum Vitae</a>
-  <a href="Interests/interests.html">Interests</a>
-  <a href ="ebusiness/Ebus1.php"> E business</a>
-  <a href ="Interests/cloud.html"> Cloud Services</a>
-  <a href="https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
-  <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
+  <a href= "../cv_page1.html">Curriculum Vitae</a>
+  <a href="../Interests/interests.html">Interests</a>
+  <a href ="../ebusiness/intro_to_ebus.html"> E business</a>
+  <a href ="../Interests/cloud.html"> Cloud Services</a>
+  <a href="../https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+  <a href="../https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
-
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; .</span>
@@ -84,7 +83,7 @@ function closeNav() {
             
             <?php
             // Echo session variables that were set on previous page
-            echo "Total: " . $_SESSION["total"] . ".";
+            echo "Total: " . $_POST["total"] . ".";
             ?>
             <br/>
             <br/>
@@ -104,6 +103,8 @@ function closeNav() {
             <?php
             echo "E-mail Address: " . $_POST["email"] . ".";
             ?>            
+            
+             <a href= "../homepage.html">Home</a>
             
         </body>
     

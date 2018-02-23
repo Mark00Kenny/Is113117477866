@@ -64,15 +64,15 @@ span {
     
     <body>
         
-            <div id="mySidenav" class="sidenav">
+                      <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "../homepage.html">Home</a>
-  <a href= "cv_page1.html">Curriculum Vitae</a>
-  <a href="Interests/interests.html">Interests</a>
-  <a href ="ebusiness/Ebus1.php"> E business</a>
-  <a href ="Interests/cloud.html"> Cloud Services</a>
-  <a href="https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
-  <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
+  <a href= "../cv_page1.html">Curriculum Vitae</a>
+  <a href="../Interests/interests.html">Interests</a>
+  <a href ="../ebusiness/intro_to_ebus.html"> E business</a>
+  <a href ="../Interests/cloud.html"> Cloud Services</a>
+  <a href="../https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+  <a href="../https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
 </div>
 
 
@@ -140,7 +140,7 @@ function closeNav() {
         
         <?php
         // Set session variables
-        $_SESSION["total"]        = $_POST["total"];
+        $_SESSION ["total"]        = $_POST["total"];
         $_SESSION ["first_name"]  = $_POST ["first_name"];
         $_SESSION [ "last_name"]  = $_POST ["last_name"] ;
         $_SESSION [ "email"]      = $_POST ["email"];
