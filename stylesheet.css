@@ -1,5 +1,5 @@
 /*myStyle.css*/
-body
+
 
 .sidenav {
     height: 100%;
@@ -16,15 +16,15 @@ body
 
 .sidenav a {
     padding: 8px 8px 8px 32px;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 25px;
-    color: #818181;
+    color: grey;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+    color: green;
 }
 
 .sidenav .closebtn {
@@ -40,7 +40,7 @@ body
   .sidenav a {font-size: 18px;}
 }
 
-span {
+ span {
     background-color: white;
     border: solid black;
 }
