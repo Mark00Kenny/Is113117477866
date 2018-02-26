@@ -5,13 +5,43 @@
          <link href="../stylesheet.css"
          rel="stylesheet"
           type= "text/css">
+          
+           <link href="../stylesheet2.css"
+         rel="stylesheet"
+          type= "text/css">
          
        <marquee behavior="scroll" direction="lef"> Welcome to "Up in the Skies" </marquee>
-  
+    <link rel="stylesheet" href="int_pages.css" type="text/css"/>
+        
+        
+        <!--Creating layout-->
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+
+        <!--Page Pilling-->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
+   
+        <script type = "text/javascript">
+           $(document).ready(function() {
+            	$('#pagepiling').pagepiling({
+            	});
+        	});
+        	
+        	 
+          
+	</script>
+    
     </head>
     
-    
+     
+	
           <body>
+             
+              
              <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "../homepage.html">Home</a>
@@ -21,7 +51,9 @@
   <a href ="../Interests/cloud.html"> Cloud Services</a>
   <a href="../https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
   <a href="../https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
+
 </div>
+
 
 
 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Click to Navigate</span>
@@ -35,6 +67,87 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+
+
+                <div id="pagepiling">
+	<div class="section" id="section1"><div class = "wrapper">
+                <header>
+                    <h1> Cloud Computing</h1>
+                    <nav>
+                        <ul>
+                             <li><a href= "../homepage.html">Home</a></li>
+                             <li> <a href= "../cv_page1.html">Curriculum Vitae</a></li>
+                             <li> <a href="../Interests/interests.html">Interests</a></li>
+                             <li> <a href ="../ebusiness/intro_to_ebus.html"> E business</a></li>
+                             <li> <a href ="../Interests/cloud.html"> Cloud Services</a></li>
+                        
+                      </ul>
+                    </nav>
+                    
+                </header>
+                <section class = "cloud">
+                    <article>
+                        <figure>
+                            <img src="../aws.png" alt="AWS" />
+                            <figcaption>AWS</figcaption>
+                            
+                        </figure>
+                        <hgroup>
+                            <h2> Amazon Web Services</h2>
+                            <h3> Infrastructure as a Service (IaaS)</h3>
+                        </hgroup>
+                        <p> Cloud services are enterprises which allow users to save and access data from anywhere</p>
+                        
+                    </article>
+                    
+                    <article>
+                        <figure>
+                            <img src="../salesforce.png" alt= "Salesforce" />
+                            <figcaption>Salesforce</figcaption>
+                            
+                        </figure>
+                        <hgroup>
+                            <h2> Salesforce</h2>
+                            <h3> Software as a Service (SaaS) </h3>
+                            
+                        </hgroup>
+                        <p> Dropbox is most commonly used to automtically upload photos and videos from a mobile
+                        device to the cloud. It may also be used to upload files including document text files and audio files</p>
+                    </article>
+                </section>
+                <aside>
+                    <section class= "popular-recipes">
+                        <h2>Links to Cloud Websites</h2>
+                        <a href=""> </a>
+                        </section>
+                        
+                        <section class= "sellers">
+                            <h2> Contact</h2>
+                            <p> Up In the Skies <br />
+                            Cloud sellers <br />
+                            Eastgate <br />
+                            Business Park</p>
+                        </section>
+                        
+                    
+                </aside></div>
+	<div class="section" id="section2"></div>
+	<div class="section" id="section3">
+	    
+	    <br/>
+	    <a href="cloud.html" class ="btn btn-dark"> Next</a>
+	</div>
+                <footer>
+                    &copy: Howl To The Moon Cloud
+                </footer>
+            </div><!--.wrapper -->
+            
+            
+                   
+                    
+                    
+                    
+                    
 <br />
 <br />
 <a href ="Ebus1.php"> E business</a>

@@ -10,6 +10,11 @@ session_start();
          <link href="../stylesheet.css"
          rel="stylesheet"
           type= "text/css">
+          
+          <link href="../stylesheet2.css"
+         rel="stylesheet"
+          type= "text/css">
+          
         </head>
    
     <body>
@@ -39,10 +44,41 @@ function closeNav() {
 }
 </script>
     </head>
+    <style>
+   hgroup{ text-align:center;
+   }
+    
+    p{ text-align:center;
+    }
+    
+</style>
+   
     <body>
-        <H3 style="text-align:center;">Thank you for your purchase.</H3>
-        <div class="receipt">
-            <?php
+        
+         <div class = "wrapper">
+                <header>
+                    <h1> Receipt</h1>
+                    <nav>
+                        <ul>
+                             <li><a href= "../homepage.html">Home</a></li>
+                             <li> <a href= "../cv_page1.html">Curriculum Vitae</a></li>
+                             <li> <a href="../Interests/interests.html">Interests</a></li>
+                             <li> <a href ="../ebusiness/intro_to_ebus.html"> E business</a></li>
+                             <li> <a href ="../Interests/cloud.html"> Cloud Services</a></li>
+                        
+                      </ul>
+                    </nav>
+                    
+                </header>
+                <section class = "cloud">
+                    <article>
+                      
+                        <hgroup>
+                            <h2> Thank you for your purchase.</h2>
+                            
+                        </hgroup>
+                        <p> 
+                        <?php
             // echo session variables from ebus2
             echo "Total is &euro; " . $_SESSION["total"] . ".";
             ?>
@@ -68,14 +104,26 @@ function closeNav() {
             
             <br/>
             <br/>
-            
-             <a href= "../homepage.html">Home</a>
+            </p>
+               <p> A confirmation of your purchase shall be emailed to you shortly. </p>
+                    <br/><br/><br/><br/><br/><br/><br/>
+                </section>
+               <br/><br/><br/><br/><br/><br/><br/><br/>
+             
+               
+               <br/><br/><br/><br/><br/><br/><br/>
+                <footer>
+                    &copy: Howl To The Moon Cloud
+                </footer>
+            </div><!--.wrapper -->
             
         
-        </div> 
+           
+             
+            
+        
+         
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <footer>
-            <p>117477866 &copy; 2018</p>
-        </footer>
+        
     </body>
 </html>   
