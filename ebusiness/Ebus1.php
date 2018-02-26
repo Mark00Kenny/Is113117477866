@@ -66,11 +66,11 @@ function closeNav() {
                     <h1> Please select a service</h1>
                     <nav>
                         <ul>
-                             <li><a href= "../homepage.html">Home</a></li>
-                             <li> <a href= "../cv_page1.html">Curriculum Vitae</a></li>
-                             <li> <a href="../Interests/interests.html">Interests</a></li>
-                             <li> <a href ="../ebusiness/intro_to_ebus.html"> E business</a></li>
-                             <li> <a href ="../Interests/cloud.html"> Cloud Services</a></li>
+                              <li><a href= "intro_to_ebus.html">Home/About us</a></li>
+                             <li> <a href= "../Interests/cloud.html">Products</a></li>
+                             <li> <a href="../Interests/cloud2.html">Top Sellers</a></li>
+                             <li> <a href ="Ebus1.php"> Shop</a></li>
+                             <li> <a href ="../Interests/cloud3.html"> More Cloud Services</a></li>
                         
                       </ul>
                     </nav>
