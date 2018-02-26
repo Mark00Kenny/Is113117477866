@@ -15,6 +15,20 @@ session_start();
          rel="stylesheet"
           type= "text/css">
           
+          <style>
+     header {
+          background-image: url("download.png");
+                }
+    
+   hgroup{ 
+       text-align:center;
+   }
+    
+    p{ 
+        text-align:center;
+    }
+    
+</style>
         </head>
    
     <body>
@@ -43,17 +57,8 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-    </head>
-    <style>
-   hgroup{ text-align:center;
-   }
-    
-    p{ text-align:center;
-    }
-    
-</style>
+
    
-    <body>
         
          <div class = "wrapper">
                 <header>

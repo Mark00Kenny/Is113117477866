@@ -114,6 +114,10 @@
                     text-decoration: underline;
                 }
                 
+                a:hover {
+                color: green;
+                }
+                
                 h1, h2, h3 {
                     font-weight: normal;
                 }

@@ -16,6 +16,26 @@ session_start();
          <link href="../stylesheet.css"
          rel="stylesheet"
           type= "text/css">
+          
+            <link href="../stylesheet2.css"
+         rel="stylesheet"
+          type= "text/css">
+          
+          <style>
+     header {
+          background-image: url("download.png");
+                }
+    
+   hgroup{ 
+       text-align:center;
+   }
+    
+    p{ 
+        text-align:center;
+    }
+    
+</style>
+
    </head>
 
             <body>
@@ -44,12 +64,31 @@ session_start();
             document.getElementById("mySidenav").style.width = "0";
         }
         </script>
-            </head>
             
-            <body>
-                <h4>Please enter your payment details.</h4>
-                
-                    <form action="Ebus3.php" method="POST">
+             <div class = "wrapper">
+                <header>
+                    <h1> Payment</h1>
+                    <nav>
+                        <ul>
+                             <li><a href= "../homepage.html">Home</a></li>
+                             <li> <a href= "../cv_page1.html">Curriculum Vitae</a></li>
+                             <li> <a href="../Interests/interests.html">Interests</a></li>
+                             <li> <a href ="../ebusiness/intro_to_ebus.html"> E business</a></li>
+                             <li> <a href ="../Interests/cloud.html"> Cloud Services</a></li>
+                        
+                      </ul>
+                    </nav>
+                    
+                </header>
+                <section class = "cloud">
+                    <article>
+                      
+                        <hgroup>
+                            <h2> Please enter your payment details.</h2>
+                            
+                        </hgroup>
+                        <p> 
+                        <form action="Ebus3.php" method="POST">
                         
                         <label for="user_pin">
          PIN:
@@ -88,11 +127,43 @@ session_start();
                  <br/>
                
                 <button type="Submit" id="btnPurchase" disabled> Proceed with Purchase </button>
+                <hr />
                 
             </form>
             <br />
             <button class="success hover" onClick="validateDetails()">Validate</button>
         
+                <hr />
+           
+            <br/>
+            <br/>
+            
+                    <br/><br/><br/><br/><br/><br/><br/>
+                </section>
+                <aside>
+                  <section class= "sellers">
+                            <h2> Contact</h2>
+                            <p> Howl to the Moon <br />
+                            Cloud sellers <br />
+                            Eastgate <br />
+                            Business Park</p>
+                        </section>
+                        
+                    
+                </aside>
+               <br/><br/><br/><br/><br/><br/><br/><br/>
+             
+               
+               
+                <footer>
+                    &copy: Howl To The Moon Cloud
+                </footer>
+            </div><!--.wrapper -->
+            
+            
+            
+                
+                
             <?php
             //session variables
             $_SESSION["total"] = $_POST["total"];

@@ -7,10 +7,30 @@
          <link href="../stylesheet.css"
          rel="stylesheet"
           type= "text/css">
+          
+           <link href="../stylesheet2.css"
+         rel="stylesheet"
+          type= "text/css">
+          
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
         </script>
     
+         <style>
+     header {
+          background-image: url("download.png");
+                }
+    
+   hgroup{ 
+       text-align:center;
+   }
+    
+    p{ 
+        text-align:center;
+    }
+    
+</style>
+
 </head>
 
 
@@ -41,13 +61,30 @@ function closeNav() {
 }
 </script>    
 
-    </head>
-    <body>
-        <h4>Select a product</h4>
-        
-        
-        
-        <form method="POST" action="Ebus2.php">
+     <div class = "wrapper">
+                <header>
+                    <h1> Please select a service</h1>
+                    <nav>
+                        <ul>
+                             <li><a href= "../homepage.html">Home</a></li>
+                             <li> <a href= "../cv_page1.html">Curriculum Vitae</a></li>
+                             <li> <a href="../Interests/interests.html">Interests</a></li>
+                             <li> <a href ="../ebusiness/intro_to_ebus.html"> E business</a></li>
+                             <li> <a href ="../Interests/cloud.html"> Cloud Services</a></li>
+                        
+                      </ul>
+                    </nav>
+                    
+                </header>
+                <section class = "cloud">
+                    <article>
+                      
+                        <hgroup>
+                            <h2> Please select a product.</h2>
+                            
+                        </hgroup>
+                        <p> 
+                         <form method="POST" action="Ebus2.php">
          <hr />
             <label for="salesforce">
                 <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -83,35 +120,38 @@ function closeNav() {
             <hr />
             
             <br/>
-            <br/>
+            
             
              <label for="subtotal">
                 Subtotal &euro;
                 <input type="text" id="subtotal" value="0.00" name="subtotal" readonly/>
             </label>
-            
-            <br/> </br>
+             <hr />
+            <br/> 
             
             <label for="discount">
                 Discount &euro;
                 <input type="text" id="discount" name="discount" value="0.00" readonly/>
             </label>
             
-            <br/> </br>
+            <hr />
+            <br/> 
             
              <label for="vat">
                 VAT &euro;
                 <input type="text" id="vat" value="0.00" readonly/>
             </label>
             
-            <br/> </br>
+            <hr />
+            <br/> 
             
             <label for="total">
                 Total &euro;
                 <input type="text" id="total" name="total" value="0.00" readonly/>
             </label>
             
-            <br/> </br>
+            <hr />
+            <br/> 
             
             <button  type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
@@ -121,6 +161,54 @@ function closeNav() {
         <button class ="button_1" onClick="calcSub()";"calcDisVatTotal()";>Calculate Cost</button>
         <a rule="button" class="cancel hover" href="Ebus1.php">Clear Choice</a>
         
+                <hr />
+           
+            <br/>
+            <br/>
+            
+                    <br/><br/><br/><br/>
+                </section>
+               
+             <aside>
+                    <section class= "cloud_image">
+                       <br/>
+                       <hr />
+                        <img src= "salesforce_ebus.png">
+                        <hr />
+                        <img width="199" height="140" src= "c9ebus.png">
+                        <hr />
+                        <img width="199" height="140" src= "awsebus.png">
+                        <hr />
+                        <img width="199" height="140"src= "gmailebus.png">
+                        <hr />
+                        </section>
+                        
+
+                    
+                </aside>
+               
+             
+                <footer>
+                    &copy: Howl To The Moon Cloud
+                </footer>
+            </div><!--.wrapper -->
+            
+            
+            
+                
+                
+            <?php
+            //session variables
+            $_SESSION["total"] = $_POST["total"];
+            $_SESSION ["first_name"] = $_POST ["first_name"];
+            $_SESSION [ "last_name"] = $_POST ["last_name"] ;
+            $_SESSION [ "email"] = $_POST ["email"];
+             ?>
+        
+        
+        
+        
+       
         
     </body>
 </html>
