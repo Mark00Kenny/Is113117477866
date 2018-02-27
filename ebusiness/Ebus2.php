@@ -163,7 +163,7 @@ session_start();
                
                
                 <footer>
-                    &copy: Howl To The Moon Cloud
+                    &copy: Howl To The Clouds
                 </footer>
             </div><!--.wrapper -->
             

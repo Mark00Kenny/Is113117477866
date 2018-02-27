@@ -65,7 +65,7 @@ function closeNav() {
                     <h1> Receipt</h1>
                     <nav>
                         <ul>
-                              <li><a href= "../intro_to_ebus.html">Home/About us</a></li>
+                              <li><a href= "intro_to_ebus.html">Home/About us</a></li>
                              <li> <a href= "../Interests/cloud.html">Products</a></li>
                              <li> <a href="../Interests/cloud2.html">Top Sellers</a></li>
                              <li> <a href ="Ebus1.php"> Shop</a></li>
@@ -118,7 +118,7 @@ function closeNav() {
                
                <br/><br/><br/><br/><br/><br/><br/>
                 <footer>
-                    &copy: Howl To The Moon Cloud
+                    &copy: Howl To The Clouds
                 </footer>
             </div><!--.wrapper -->
             

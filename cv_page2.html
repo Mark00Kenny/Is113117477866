@@ -8,6 +8,17 @@
          rel="stylesheet"
           type= "text/css">
           
+          
+         <link href="../stylesheet2.css"
+         rel="stylesheet"
+          type= "text/css">
+          
+           <!--Creating Layout-->
+         
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  
     </head>
      <style>
         
@@ -20,18 +31,31 @@ body
       
 }
 
-
-
-h1 {
-    
-    color: white;
+header{
+    background-color: lightgrey;
+    height: 100px;
     text-align: center;
+    font-size: 50px;
 }
 
-p {
-    color: white ;
-    font-family: verdana;
-    font-size: 20px;
+
+h1{ color:black ;
+    text-align: center
+
+}
+
+h2{ color:black ;
+    text-align: center
+
+}
+p{
+    
+    text-align: justify;
+    position:center
+}
+
+figure{  width: 240px;
+        height: 450px;
     
 }
 
@@ -60,9 +84,27 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
-        <h1 class = "mainheading"> Educational Details</h1>
-        
-        <p><strong> Secondary School: </strong> Thunder Peak, District High School</p>
+
+<div class = "wrapper">
+                <header>
+                    <br>
+                    <br>
+                    Education Details
+                    
+                    
+                </header>
+                
+                
+                <section class = "cloud">
+                    <p></p>
+                        <figure>
+                            
+                        </figure>
+                        <hgroup>
+                            <h2> Educational Details</h2>
+                            
+                        </hgroup>
+                        <p><strong> Secondary School: </strong> Thunder Peak, District High School</p>
         <p><strong> Course: </strong>Junior and Leaving Certificate</p>
         <p><strong> Year : </strong> 2011-2017</p>
         
@@ -73,5 +115,20 @@ function closeNav() {
         <p><strong> Year : </strong> 2017-2021</p>
             
             <a href="cv_page3.html" class="btn btn-dark">Next</a>
+                    
+                    
+                    <br><br><br><br>
+                </section>
+                
+                 
+               
+                <footer>
+                    &copy: Mark Kenny
+                </footer>
+            </div><!--.wrapper -->
+        
+        
+        
+        
     </body>
 </html>
