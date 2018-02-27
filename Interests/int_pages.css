@@ -1,37 +1,43 @@
 #section1{
                     color: #666666;
                     background-color: #f9f8f6;
-                    background-image: url("../wolf_logo.jpg");
+                    background-image: url("spotify.gif");
                     background-position: center;
                     font-family: Georgia, Times, serif;
-                    line-height: 2.0em;
-                    margin: 0px;
+                    
+                    
                 }
 
 #section2{
                     color: #666666;
                     background-color: #f9f8f6;
-                    background-image: url("../wolf_logo.jpg");
+                    background-image: url("dropbox.gif");
                     background-position: center;
                     font-family: Georgia, Times, serif;
-                    line-height: 2.0em;
-                    margin: 0px;
+                    
+                    
                 }
     
 
 #section3{
                     color: #666666;
                     background-color: #f9f8f6;
-                    background-image: url("../wolf_logo.jpg");
+                    background-image: url("google_drive.gif");
                     background-position: center;
                     font-family: Georgia, Times, serif;
-                    line-height: 2.0em;
-                    margin: 0px;
+                    
+                    
                 }
 
 
             .section1
             
+            sidenav {
+           width: 100%;
+           position: fixed;
+           top: 0;
+           z-index: 100;
+            }
             sidenav {
                 height: 100%;
                 width: 0;
@@ -42,7 +48,8 @@
                 background-color: #111;
                 overflow-x: hidden;
                 transition: 0.5s;
-                padding-top: 60px;
+                padding-top: 60px
+                
             }
             
             sidenav a {
@@ -73,7 +80,8 @@
             
              span {
                 background-color: white;
-                border: solid black;
+                border: solid black
+                
             }
 
 
@@ -82,138 +90,7 @@
 
 
 
-   header , section , footer , aside , nav , article , figure , figcaption {
-                display: block;}
-                
-                body 
-                
-                .wrapper {
-                    width: 940px;
-                    margin: 20px  auto 20px auto;
-                    border: 2px solid #000000;
-                    background-color: #ffffff;
-                    
-                }
-                
-                header {
-                    height: 160px;
-                    background-image: url(howler.jpg);
-                }
-                
-                h1 {
-                    text-indent: -9999px;
-                    width: 940px;
-                    height: 130px;
-                    margin: 0px;
-                }
-                
-                nav, footer {
-                    clear: both;
-                    color: #ffffff;
-                    background-color: #aeaca8;
-                    height: 40px;
-                    border: solid;
-                    border-color:black;
-                    margin: 0px;
-                }
-                
-                nav ul {
-                    margin: 0px;
-                    padding: 5px 0px 5px 30px;
-                }
-                
-                nav li {
-               display: inline;
-               margin-right: 40px;
-                }
-                
-                nav li a {
-                    color: #ffffff;
-                }
-                
-                nav li a : hover , nav li a.current {
-                    color: #000000;
-                    
-                }
-                
-                section.cloud {
-                    float: left;
-                    width: 659px;
-                    border-right: 1px solid #eeeeee;
-                }
-                
-                article {
-                    clear: both;
-                    overflow: auto;
-                    width: 100%;
-                }
-                
-                hgroup {
-                    margin-top: 40px;
-                }
-                
-                figure {
-                    float: left;
-                    width: 290px;
-                    height: 220px;
-                    padding: 5px;
-                    margin: 20px;
-                    border: 1px solid #eeeeee;
-                }
-                figcaption {
-                    font-size: 90%;
-                    text-align: left;
-                    
-                }
-                
-                aside {
-                    width: 230px;
-                    float: left;
-                    padding: 0px 0px 0px 20px;
-                }
-                
-                aside section a {
-                    display: block;
-                    padding: 10px;
-                    border-bottom: 1px solid#eeeeee;
-                    
-                }
-               
-               aside section a : hover {
-                   color: #985d6a;
-                   background-color: #efefef;
-               }
-                
-                a {
-                    color: #de6581;
-                    text-decoration: underline;
-                }
-                
-                h1, h2, h3 {
-                    font-weight: normal;
-                }
-                
-                h2{
-                    margin: 10px 0px 5px 0px;
-                    padding: 0px;
-                }
-                
-                h3{
-                    margin: 0px 0px 10px 0px;
-                    color: #de6581;
-                    }
-                
-                aside h2{
-                    padding: 30px 0px 10px 0px;
-                color: #de6581;
-                }
-                
-                footer {
-                    font-size: 80%;
-                    padding: 7px 0px 0px 20px;
-                    
-                }
-                
+ 
                    .section2
             
             sidenav {
@@ -261,142 +138,6 @@
             }
 
 
-
-
-
-
-
-   header , section , footer , aside , nav , article , figure , figcaption {
-                display: block;}
-                
-                body 
-                
-                .wrapper {
-                    width: 940px;
-                    margin: 20px  auto 20px auto;
-                    border: 2px solid #000000;
-                    background-color: #ffffff;
-                    
-                }
-                
-                header {
-                    height: 160px;
-                    background-image: url(howler.jpg);
-                }
-                
-                h1 {
-                    text-indent: -9999px;
-                    width: 940px;
-                    height: 130px;
-                    margin: 0px;
-                }
-                
-                nav, footer {
-                    clear: both;
-                    color: #ffffff;
-                    background-color: #aeaca8;
-                    height: 40px;
-                    border: solid;
-                    border-color:black;
-                    margin: 0px;
-                }
-                
-                nav ul {
-                    margin: 0px;
-                    padding: 5px 0px 5px 30px;
-                }
-                
-                nav li {
-               display: inline;
-               margin-right: 40px;
-                }
-                
-                nav li a {
-                    color: #ffffff;
-                }
-                
-                nav li a : hover , nav li a.current {
-                    color: #000000;
-                    
-                }
-                
-                section.cloud {
-                    float: left;
-                    width: 659px;
-                    border-right: 1px solid #eeeeee;
-                }
-                
-                article {
-                    clear: both;
-                    overflow: auto;
-                    width: 100%;
-                }
-                
-                hgroup {
-                    margin-top: 40px;
-                }
-                
-                figure {
-                    float: left;
-                    width: 290px;
-                    height: 220px;
-                    padding: 5px;
-                    margin: 20px;
-                    border: 1px solid #eeeeee;
-                }
-                figcaption {
-                    font-size: 90%;
-                    text-align: left;
-                    
-                }
-                
-                aside {
-                    width: 230px;
-                    float: left;
-                    padding: 0px 0px 0px 20px;
-                }
-                
-                aside section a {
-                    display: block;
-                    padding: 10px;
-                    border-bottom: 1px solid#eeeeee;
-                    
-                }
-               
-               aside section a : hover {
-                   color: #985d6a;
-                   background-color: #efefef;
-               }
-                
-                a {
-                    color: #de6581;
-                    text-decoration: underline;
-                }
-                
-                h1, h2, h3 {
-                    font-weight: normal;
-                }
-                
-                h2{
-                    margin: 10px 0px 5px 0px;
-                    padding: 0px;
-                }
-                
-                h3{
-                    margin: 0px 0px 10px 0px;
-                    color: #de6581;
-                    }
-                
-                aside h2{
-                    padding: 30px 0px 10px 0px;
-                color: #de6581;
-                }
-                
-                footer {
-                    font-size: 80%;
-                    padding: 7px 0px 0px 20px;
-                    
-                }
                 
                    .section3
             
@@ -450,135 +191,4 @@
 
 
 
-   header , section , footer , aside , nav , article , figure , figcaption {
-                display: block;}
-                
-                body 
-                
-                .wrapper {
-                    width: 940px;
-                    margin: 20px  auto 20px auto;
-                    border: 2px solid #000000;
-                    background-color: #ffffff;
-                    
-                }
-                
-                header {
-                    height: 160px;
-                    background-image: url(howler.jpg);
-                }
-                
-                h1 {
-                    text-indent: -9999px;
-                    width: 940px;
-                    height: 130px;
-                    margin: 0px;
-                }
-                
-                nav, footer {
-                    clear: both;
-                    color: #ffffff;
-                    background-color: #aeaca8;
-                    height: 40px;
-                    border: solid;
-                    border-color:black;
-                    margin: 0px;
-                }
-                
-                nav ul {
-                    margin: 0px;
-                    padding: 5px 0px 5px 30px;
-                }
-                
-                nav li {
-               display: inline;
-               margin-right: 40px;
-                }
-                
-                nav li a {
-                    color: #ffffff;
-                }
-                
-                nav li a : hover , nav li a.current {
-                    color: #000000;
-                    
-                }
-                
-                section.cloud {
-                    float: left;
-                    width: 659px;
-                    border-right: 1px solid #eeeeee;
-                }
-                
-                article {
-                    clear: both;
-                    overflow: auto;
-                    width: 100%;
-                }
-                
-                hgroup {
-                    margin-top: 40px;
-                }
-                
-                figure {
-                    float: left;
-                    width: 290px;
-                    height: 220px;
-                    padding: 5px;
-                    margin: 20px;
-                    border: 1px solid #eeeeee;
-                }
-                figcaption {
-                    font-size: 90%;
-                    text-align: left;
-                    
-                }
-                
-                aside {
-                    width: 230px;
-                    float: left;
-                    padding: 0px 0px 0px 20px;
-                }
-                
-                aside section a {
-                    display: block;
-                    padding: 10px;
-                    border-bottom: 1px solid#eeeeee;
-                    
-                }
-               
-               aside section a : hover {
-                   color: #985d6a;
-                   background-color: #efefef;
-               }
-                
-                a {
-                    color: #de6581;
-                    text-decoration: underline;
-                }
-                
-                h1, h2, h3 {
-                    font-weight: normal;
-                }
-                
-                h2{
-                    margin: 10px 0px 5px 0px;
-                    padding: 0px;
-                }
-                
-                h3{
-                    margin: 0px 0px 10px 0px;
-                    color: #de6581;
-                    }
-                
-                aside h2{
-                    padding: 30px 0px 10px 0px;
-                color: #de6581;
-                }
-                
-                footer {
-                    font-size: 80%;
-                    padding: 7px 0px 0px 20px;
-                    
-                }
-                
+   
