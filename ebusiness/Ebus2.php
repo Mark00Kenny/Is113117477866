@@ -139,17 +139,25 @@ session_start();
             
                     <br/><br/><br/><br/><br/><br/><br/>
                 </section>
-                <aside>
-                  <section class= "sellers">
-                            <h2> Contact</h2>
-                            <p> Howl to the Moon <br />
-                            Cloud sellers <br />
-                            Eastgate <br />
-                            Business Park</p>
+                 <aside>
+                    <section class= "cloud_image">
+                       <br/>
+                       <hr />
+                        <img src= "salesforce_ebus.png">
+                        <hr />
+                        <img width="199" height="140" src= "c9ebus.png">
+                        <hr />
+                        <img width="199" height="140" src= "awsebus.png">
+                        <hr />
+                        <img width="199" height="140"src= "gmailebus.png">
+                        <hr />
                         </section>
                         
+
                     
                 </aside>
+               
+                 
                <br/><br/><br/><br/><br/><br/><br/><br/>
              
                

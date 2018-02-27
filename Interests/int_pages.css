@@ -1,15 +1,16 @@
 #section1{
-                    color: #666666;
+                    color: white;
                     background-color: #f9f8f6;
                     background-image: url("spotify.gif");
                     background-position: center;
                     font-family: Georgia, Times, serif;
                     
                     
+                    
                 }
 
 #section2{
-                    color: #666666;
+                    color: black;
                     background-color: #f9f8f6;
                     background-image: url("dropbox.gif");
                     background-position: center;
@@ -20,7 +21,7 @@
     
 
 #section3{
-                    color: #666666;
+                    color: black;
                     background-color: #f9f8f6;
                     background-image: url("google_drive.gif");
                     background-position: center;
