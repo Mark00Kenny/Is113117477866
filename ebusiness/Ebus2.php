@@ -1,3 +1,5 @@
+<!--Sarting the session so Ebus 1 values are brought over -->
+
 <?php
 // start the session
 session_start();
@@ -9,9 +11,12 @@ session_start();
         <title> Enter Details</title>
         
         <!--jQuery-->
+        <!--linking my javascript validator to this page -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="ebus2_validator.js"></script>
         
+        
+        <!--Bringing in my external stylesheet again -->
     <meta charset = "UTF-8">
          <link href="../stylesheet.css"
          rel="stylesheet"
@@ -39,7 +44,7 @@ session_start();
    </head>
 
             <body>
-                
+                <!--adding the html code for my stylesheet -->
                        <div id="mySidenav" class="sidenav">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
           <a href= "../homepage.html">Home</a>
@@ -82,6 +87,8 @@ session_start();
                 <section class = "cloud">
                     <article>
                       
+                      <!--allowing values to 
+                      post between ebus 2 and 3-->
                         <hgroup>
                             <h2> Please enter your payment details.</h2>
                             
@@ -140,6 +147,8 @@ session_start();
                     <br/><br/><br/><br/><br/><br/><br/>
                 </section>
                  <aside>
+                     <!--adding in more photos to match with ebus 1's 
+                     products on offer-->
                     <section class= "cloud_image">
                        <br/>
                        <hr />
@@ -170,7 +179,7 @@ session_start();
             
             
                 
-                
+                <!--Posting more session variables to ebus 3 -->
             <?php
             //session variables
             $_SESSION["total"] = $_POST["total"];

@@ -1,7 +1,12 @@
 <!DOCTYPE html>
+<!-- This is my opening
+page for my ebusiness website,
+where users can purchse cloud accounts.-->
 <html>
     
     <head>
+        
+        <!-- Linking my 2 stylesheets for the sidenav and layout -->
         <title>Select Product</title>
          <meta charset = "UTF-8">
          <link href="../stylesheet.css"
@@ -17,6 +22,7 @@
         </script>
     
          <style>
+         
      header {
           background-image: url("download.png");
                 }
@@ -33,7 +39,9 @@
 
 </head>
 
-
+<!-- adding the html code to work 
+with my two stylesheets for the sidenav
+and then the layout for the form-->
     <body>
         
                <div id="mySidenav" class="sidenav">
@@ -84,6 +92,12 @@ function closeNav() {
                             
                         </hgroup>
                         <p> 
+                        
+                        <!--Getting ready to post my variables 
+                        between the different pages.
+                        
+                        Also I'm labeling the items in my form so that 
+                        other pages can recognise them by name and id-->
                          <form method="POST" action="Ebus2.php">
          <hr />
             <label for="salesforce">
@@ -168,7 +182,8 @@ function closeNav() {
             
                     <br/><br/><br/><br/>
                 </section>
-               
+               <!--Just adding in a few photos to make the ebusiness
+               page more appealing for the user-->
              <aside>
                     <section class= "cloud_image">
                        <br/>
@@ -187,7 +202,7 @@ function closeNav() {
                     
                 </aside>
                
-             
+             <!--Copyright added for my ebusiness -->
                 <footer>
                     &copy: Howl To The Clouds
                 </footer>
@@ -196,7 +211,9 @@ function closeNav() {
             
             
                 
-                
+                <!--Creating a session variable
+                so I can post my ebusiness values
+                between different pages-->
             <?php
             //session variables
             $_SESSION["total"] = $_POST["total"];

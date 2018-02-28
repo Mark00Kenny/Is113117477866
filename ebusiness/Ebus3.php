@@ -1,3 +1,5 @@
+<!--Carrying over values from ebus 1 and 2 to Ebus 3 -->
+
 <?php
 session_start();
 ?>
@@ -5,7 +7,9 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
-        
+        <!--importing my stylesheets again
+        for further styleing
+        -->
          <meta charset = "UTF-8">
          <link href="../stylesheet.css"
          rel="stylesheet"
@@ -32,7 +36,7 @@ session_start();
         </head>
    
     <body>
-        
+        <!--html code for my stylesheet -->
                <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href= "../homepage.html">Home</a>

@@ -1,5 +1,9 @@
 /*myStyle.css*/
 
+/*creating a sidenav 
+for all navigation in my project
+this is in the external stylesheet 
+so I don't have a lot of code in style tags.*/
 
 .sidenav {
     height: 100%;

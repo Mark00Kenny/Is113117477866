@@ -1,4 +1,11 @@
 /*myStyle2.css*/
+
+/*creating a homepage layout
+navigation in my Ebusiness section aswell 
+as providing a nice easy to look 
+at layout for most of my pages.
+This is in the external stylesheet 
+so I don't have a lot of code in style tags.*/
             header , section , footer , aside , nav , article , figure , figcaption {
                 display: block;}
                 
