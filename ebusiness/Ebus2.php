@@ -52,8 +52,8 @@ session_start();
           <a href="../Interests/interests.html">Interests</a>
           <a href ="../ebusiness/intro_to_ebus.html"> E business</a>
           <a href ="../Interests/cloud.html"> Cloud Services</a>
-          <a href="../https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
-          <a href="../https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
+          <a href="https://is113117477866.herokuapp.com">is1113117477866 Heroku</a>
+          <a href="https://github.com/Mark00Kenny/Is113117477866/graphs/commit-activity">GitHub </a>
         </div>
         
         
@@ -122,7 +122,7 @@ session_start();
  
                 <br/>
  
-             <input type="text" name="email" placeholder="E-mail" maxlength="30"> <br>
+             <input type="email" name="email" placeholder="E-mail" > <br>
  
                  <hr />
  
